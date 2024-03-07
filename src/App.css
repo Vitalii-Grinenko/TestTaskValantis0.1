@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  min-height: 650px;
+  background-color: var(--page-color);
+  margin: 3%;
+  border-radius: 50px;
+}
+
+.loading {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 10px solid rgba(240, 255, 255, 0.5);
+  border-top: 10px solid var(--secondary-color);
+  animation: animate 2s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-20%, 50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-20%, 50%) rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .App {
+    margin: 0;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.productBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 35px;
+  width: 24%;
+  min-width: 200px;
+  min-height: 150px;
+}
+
+.productBlock:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 1120px) {
+  .productBlock {
+    font-size: 77%;
+  }
+}

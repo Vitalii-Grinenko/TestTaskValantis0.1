@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue";
+  background-color: var(--primary-color);
+}
+
+:root {
+  --primary-color: azure;
+  --secondary-color: rgb(224, 169, 224);
+  --page-color: rgb(127, 255, 212);
+}
